@@ -10,7 +10,7 @@ $licenseKey = getenv("NEW_RELIC_LICENSE_KEY");
 $client = new \GuzzleHttp\Client();
 $request = new \GuzzleHttp\Psr7\Request(
     'POST',
-    "https://log-api.newrelic.com/log/v1?Api-Key=$licenseKey",
+    "https://log-api.eu.newrelic.com/log/v1?Api-Key=$licenseKey",
     [
         'json' => ["timestamp" => time(), "message" => "$name => $timeout"],
         'headers' => [
