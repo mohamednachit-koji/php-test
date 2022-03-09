@@ -1,0 +1,10 @@
+{
+    "name": "mohamed/php-test",
+    "authors": [
+        {
+            "name": "Mohamed Nachit",
+            "email": "mohamed.nachit@koji.fr"
+        }
+    ],
+    "require": {}
+}
