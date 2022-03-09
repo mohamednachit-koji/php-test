@@ -6,5 +6,7 @@
             "email": "mohamed.nachit@koji.fr"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
 }
