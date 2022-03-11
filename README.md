@@ -2,7 +2,7 @@
 
 supervision-brs est une application qui permet la communication avec les bornes, en plus d'offrir une interface admin pour consulter les données.
 
-<img src="https://user-images.githubusercontent.com/98808446/157839296-9ea0da17-0704-4519-87a5-0cf0f573fb21.png" width="400">
+<img width="100" alt="Screenshot 2022-03-11 at 14 31 09" src="https://user-images.githubusercontent.com/98808446/157877588-5d9391d3-8e07-4273-ba30-c60b9a8aa5b3.png">
 
 ## Installation
 1. Clonez le projet: `git clone git@github.com:BorneRecharge/supervision-brs.git`
@@ -55,3 +55,14 @@ Une borne envoit une requête HTTP GET avec son identifiant via l'endpoint de /c
 - Détails des utilisateurs
 - Détails transactions
 - Détails des tags
+
+## Architecture
+Le projet suit une architecture hexagonale avec plusieurs domaines indépendants
+<img src="http://oumarkonate.com/wp-content/uploads/2019/11/Hexagonal-architecture.png" width="100">
+
+### Flux de données
+<img width="589" alt="Screenshot 2022-03-11 at 10 23 12" src="https://user-images.githubusercontent.com/98808446/157877613-380fc0fc-8c4b-41a9-88d5-61dce78148f3.png">
+
+### Structure du projet
+
+<img width="1021" alt="Screenshot 2022-03-11 at 14 35 59" src="https://user-images.githubusercontent.com/98808446/157878270-27e322a4-7e9b-4e93-948e-f3640f37c683.png">
