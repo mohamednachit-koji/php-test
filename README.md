@@ -33,8 +33,11 @@ Une borne envoit deux types de données: les reports et les commands
 Les bornes utilisent deux endpoints pour envoyer leur données: .../report.php et .../command.php
 #### 1.a Traitement des *reports*
 Un report est un évenement qui a eu lieu au côté de la borne. Ca peut être un événement de début de charge, fin de charge, une alerte d'erreur etc...
+
 Chaque borne envoit en continu une liste de report pour informer supervision-brs des événements qui sont passés.
+
 Un report est un évenement identifié par le format suivant `<code> <timestamp> <data>`
+
 La requête HTTP est un GET vers l'endpoint de report. Elle contient l'id de la borne en query params et la liste des reports en body
 
 Exemple:
@@ -46,6 +49,7 @@ GET /webapp/services/record/report.php?id=736
 ```
 #### 1.b Traitement des *commands*
 Une *command* est une action à executer par la borne. Ca peut être la mise à jour de son heure, mise à jour de son firmware...
+
 Une borne envoit une requête HTTP GET avec son identifiant via l'endpoint de /command, et attend en réponse une liste de commandes
 
 ### 2. Interface web de supervision
