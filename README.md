@@ -63,6 +63,7 @@ Le projet suit une architecture hexagonale avec plusieurs domaines indépendants
 ### Flux de données
 
 <img  alt="Screenshot 2022-03-11 at 14 31 09" src="https://user-images.githubusercontent.com/98808446/157877588-5d9391d3-8e07-4273-ba30-c60b9a8aa5b3.png">
+
 ### Structure du projet
 
 <img width="1021" alt="Screenshot 2022-03-11 at 14 35 59" src="https://user-images.githubusercontent.com/98808446/157878270-27e322a4-7e9b-4e93-948e-f3640f37c683.png">
