@@ -58,11 +58,11 @@ Une borne envoit une requête HTTP GET avec son identifiant via l'endpoint de /c
 
 ## Architecture
 Le projet suit une architecture hexagonale avec plusieurs domaines indépendants
-<img src="http://oumarkonate.com/wp-content/uploads/2019/11/Hexagonal-architecture.png" width="100">
+<img src="http://oumarkonate.com/wp-content/uploads/2019/11/Hexagonal-architecture.png" >
 
 ### Flux de données
 
-<img width="589" alt="Screenshot 2022-03-11 at 14 31 09" src="https://user-images.githubusercontent.com/98808446/157877588-5d9391d3-8e07-4273-ba30-c60b9a8aa5b3.png">
+<img  alt="Screenshot 2022-03-11 at 14 31 09" src="https://user-images.githubusercontent.com/98808446/157877588-5d9391d3-8e07-4273-ba30-c60b9a8aa5b3.png">
 ### Structure du projet
 
 <img width="1021" alt="Screenshot 2022-03-11 at 14 35 59" src="https://user-images.githubusercontent.com/98808446/157878270-27e322a4-7e9b-4e93-948e-f3640f37c683.png">
