@@ -2,8 +2,7 @@
 
 supervision-brs est une application qui permet la communication avec les bornes, en plus d'offrir une interface admin pour consulter les données.
 
-<img src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="48">
-
+<img src="https://user-images.githubusercontent.com/98808446/157839296-9ea0da17-0704-4519-87a5-0cf0f573fb21.png" width="48">
 
 ## Installation
 1. Clonez le projet: `git clone git@github.com:BorneRecharge/supervision-brs.git`
